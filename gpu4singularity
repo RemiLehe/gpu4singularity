@@ -288,6 +288,8 @@ _do_or_die "ln -s libnvidia-opencl.so.${NVID_VER}      libnvidia-opencl.so.1"
 _do_or_die "ln -s vdpau/libvdpau_nvidia.so.${NVID_VER} libvdpau_nvidia.so"
 _do_or_die "ln -s libcuda.so.${NVID_VER}               libcuda.so"
 _do_or_die "ln -s libcuda.so.${NVID_VER}               libcuda.so.1"
+_do_or_die "ln -s libnvidia-ptxjitcompiler.so.${NVID_VER} libnvidia-ptxjitcompiler.so"
+_do_or_die "ln -s libnvidia-ptxjitcompiler.so.${NVID_VER} libnvidia-ptxjitcompiler.so.1"
 
 # move into place (overwrite old if exist)
 _do_or_die "cd .."
